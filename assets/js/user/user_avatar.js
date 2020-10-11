@@ -52,7 +52,7 @@
               if (res.status !== 0) {
                   return layer.msg(res.message);
               }
-              layer.msg('恭喜你,更换头想成功')
+              layer.msg('恭喜你,更换头像成功')
               window.parent.getUserInfo();
           }
       })
